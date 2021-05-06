@@ -9,3 +9,12 @@ CREATE TABLE fromfunctions (
     sql_insert_datetime datetime,
     func_invocationid varchar(256)
 )
+
+--チェック用--
+select count(*) from fromfunctions where id like 'test7_%' --order by eh_enqueuedtimeutc
+SELECT  * FROM [dbo].[fromfunctions] order by eh_enqueuedtimeutc desc
+truncate table fromfunctions
+drop table fromfunctions
+--
+SELECT top(100) * FROM [dbo].[fromfunctions] where id like 'test7_%' order by process_datetime asc
+SELECT top(100) * FROM [dbo].[fromfunctions] where id like 'test7_%' order by sql_insert_datetime desc
