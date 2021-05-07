@@ -5,8 +5,8 @@
       "type": "eventHubTrigger",
       "name": "events",
       "direction": "in",
-      "eventHubName": "evh-tsunomurpoc-southeastasia-2qe0fs",
-      "connection": "evhnstsunomurpocsoutheastasia2qe0fs_RootManageSharedAccessKey_EVENTHUB",
+      "eventHubName": "evh-tsunomurpoc-southeastasia-77sjhr",
+      "connection": "EVENTHUB",
       "consumerGroup": "$Default",
       "cardinality": "many"
     }
