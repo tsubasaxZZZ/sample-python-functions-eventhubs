@@ -2,6 +2,11 @@
 
 ## 事前準備
 
+### Azure 環境のセットアップ
+
+- terraform 一式
+  - https://github.com/tsubasaxZZZ/terraform-azure/tree/main/eventhubs-functions-sqldb
+
 ### クライアント
 
 ```bash
